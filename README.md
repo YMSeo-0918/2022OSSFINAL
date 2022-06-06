@@ -36,7 +36,13 @@
  > FLUSH PRIVILEGES;
  > exit;
 ```
-5. log into phpMyadmin and create database named
+5. log into phpMyadmin and create database named "thankdb" and import the "chat.sql" database to thankdb
+6. enter following command:
+```
+$ sudo cp 2022OSSFINAL/ /var/www/html/ -r
+```
+7. you are ready to use the website using the website "{your_rasperrypi_ip}/2022OSSFINAL"
+
 ## Where can people get more help, if needed?
   If you need any help, contact ymseo0918@handong.ac.kr
   
@@ -50,5 +56,7 @@
   - Added file upload page
 
 ![image](https://user-images.githubusercontent.com/103616497/172192331-6c199e24-f304-414c-95f5-1ec611b32aad.png)
+![image](https://user-images.githubusercontent.com/103616497/172195640-8d74a14e-9f6b-42ad-bda5-e1d08f8afa63.png)
+
 
   
