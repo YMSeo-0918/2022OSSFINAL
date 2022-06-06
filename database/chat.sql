@@ -10,7 +10,7 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "+09:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -30,17 +30,18 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `chat` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `message` varchar(255) NOT NULL,
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `username` varchar(255) NOT NULL,
+  `m` varchar(255) NOT NULL,
+  `datep` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `f` varchar(255) NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `chat`
 --
 
-INSERT INTO `chat` (`id`, `name`, `message`, `date`) VALUES
-(1, 'Nikhil', 'Hi there, Welcome to my Chat Room.', '2018-04-09 00:09:36');
+INSERT INTO `chat` (`id`, `username`, `m`, `datep`,`f`) VALUES
+(1, 'INSTRUCTOR', 'This is a Thanks Diary which will allow you to save your thank message and remember them for a while. Start updating your diary now!', '2018-04-09 00:09:36','INSTRUCTOR');
 
 --
 -- Indexes for dumped tables
