@@ -1,10 +1,10 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db_name = "chatroomdb";
+$user = "testuser";
+$pass = "your_password";
+$db_name = "testdb";
 $con = new mysqli($host, $user, $pass, $db_name);
 function formatDate($date){
-	return date('g:i a', strtotime($date));
+	return date('Y-m-d', strtotime($date));
 }
 ?>
