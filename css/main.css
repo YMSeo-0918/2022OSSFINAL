@@ -1,6 +1,6 @@
 body{
 	margin-top:20px;
-	background: beige;
+	background: #E4E9BE;
 }
 input[type=text], select {
     width: 100%;
@@ -13,7 +13,7 @@ input[type=text], select {
 }
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #E6BA95;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -22,7 +22,7 @@ input[type=submit] {
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #E6BA95;
     color: white;
 }
 /* WRAPPERS */
@@ -52,7 +52,7 @@ input[type=submit]:hover {
   height: 90px !important;
 }
 .chat-avatar {
-  white: 36px;
+  width: 36px;
   height: 36px;
   float: left;
   margin-right: 10px;
@@ -103,7 +103,7 @@ input[type=submit]:hover {
 }
 #message {
 	overflow-y: auto;
-  background-color: #fff;
+  background-color: #A2B38B;
   border: 1px solid #e7eaec;
   text-align: left;
   display: block;
@@ -127,13 +127,14 @@ input[type=submit]:hover {
 }
 .message-date {
   font-size: 10px;
-  color: #888888;
+  color: #ffffff;
 }
 .message-content {
   display: block;
+  color: #ffffff;
 }
 .chat-discussion {
-  background: beige;
+  background: #E4E9BE;
   padding: 15px;
   height: 400px;
   overflow-y: auto;
@@ -169,7 +170,7 @@ input[type=submit]:hover {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  background-color: #ffffff;
+  background-color: #E4E9BE;
   border-color: #e7eaec;
   border-image: none;
   border-style: solid solid none;
@@ -180,7 +181,7 @@ input[type=submit]:hover {
   min-height: 48px;
 }
 .ibox-content {
-  background-color: #ffffff;
+  background-color: #E4E9BE;
   color: inherit;
   padding: 15px 20px 20px 20px;
   border-color: #e7eaec;
@@ -190,7 +191,7 @@ input[type=submit]:hover {
 }
 .ibox-footer {
   color: inherit;
-  border-top: 1px solid #e7eaec;
+  border-top: 1px solid #E4E9BE;
   font-size: 90%;
   background: #ffffff;
   padding: 10px 15px;
