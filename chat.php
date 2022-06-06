@@ -5,9 +5,9 @@
 	while ($row = $run->fetch_array()) :
 ?>
 <div id="message">
-	<img class="message-avatar" src="images/user.png" alt="">
-	<a class="message-author" href="#"> <?php echo $row['name'];?> </a>
-	<span class="message-date"> <?php echo formatDate($row['date']);?> </span>
-	<span class="message-content"> <?php echo $row['message'];?> </span>
+	<img class="message-avatar" src="images/<?php echo $row['f']?>" alt="">
+	<a class="message-author" href="#"> <?php echo $row['username'];?> </a>
+	<span class="message-date"> <?php echo formatDate($row['datep']);?> </span>
+	<span class="message-content"> <?php echo $row['m'];?> </span>
 </div>
 <?php endwhile; ?>
