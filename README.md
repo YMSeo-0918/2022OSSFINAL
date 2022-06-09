@@ -19,7 +19,7 @@
   to make a new website solely for this function.
 
 ## How to get started?
-  1. turn of nginx first if it is running, and start apache server
+  1. turn off nginx first if it is running, and start apache server
  ```
   $ sudo systemctl stop nginx
   $ sudo service apache2 restart
