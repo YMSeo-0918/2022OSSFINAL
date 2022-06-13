@@ -52,8 +52,10 @@ https://youtu.be/2Z8ii7G0nlA
   
 ## My Contribution to the project:
   - Added Calendar page
+  - Added "search data by date"
   - Added introduction page
-  - Added file upload page
+  - Added image file upload page
+  - Added background music
 
 ![image](https://user-images.githubusercontent.com/103616497/172192331-6c199e24-f304-414c-95f5-1ec611b32aad.png)
 ![image](https://user-images.githubusercontent.com/103616497/172195640-8d74a14e-9f6b-42ad-bda5-e1d08f8afa63.png)
